@@ -1,4 +1,4 @@
-# 2018_arcadebot
+# ArcadeBot (2018)
 ## Overview
 ArcadeBot is the VEX robot created by WildStang for use in the 2018 VEX competition, "Turning Point". This repository contains the ROBOTC code for ArcadeBot.
 
