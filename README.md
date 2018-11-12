@@ -4,9 +4,8 @@ ArcadeBot is the VEX robot created by WildStang for use in the 2018 VEX competit
 
 ## To-Do
 ### 0.3
-* ~~[ ] Use buttons instead of right joystick for flipper.~~
-* ~~[ ] Fix arcade drive to move diagonally with left joystick.~~
-* [ ] Redo drive code.
+* [ ] Use buttons instead of right joystick for flipper.
+* [ ] Fix arcade drive to use left joystick for speed and right joystick for turning.
 
 ## Changelog
 ### 0.2
