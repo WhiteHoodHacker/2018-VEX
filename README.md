@@ -2,16 +2,16 @@
 ## Overview
 ArcadeBot is the VEX robot created by WildStang for use in the 2018 VEX competition, "Turning Point". This repository contains the ROBOTC code for ArcadeBot.
 
-## To-Do
-### 0.3
-* [ ] Use buttons instead of right joystick for flipper.
-* [ ] Fix arcade drive to use left joystick for speed and right joystick for turning.
-
 ## Changelog
-### 0.2
+### 11/13/18
+* Released SplitArcadeBot.
+* Released TankBot.
+* Added control diagrams for SplitArcadeBot and TankBot.
+
+### 10/28/18 (2)
 * Fixed port numbers for motors.
 * Reversed right drive motors.
 * Successfully ran first tests on drive base and flipper.
 
-### 0.1
+### 10/28/18
 * Initial release.

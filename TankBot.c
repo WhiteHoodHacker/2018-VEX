@@ -111,7 +111,18 @@ task usercontrol()
 			motor[flywheel] = 0;
 		}
 
-		//Code for flipper (controlled by right joystick)
-		motor[flipper] = vexRT[Ch1];
+		//Code for flipper (controlled by 7L and 7D buttons)
+		if(vexRT[Btn7L] == 1)
+		{
+			motor[flipper] = 100;
+		}
+		else if(vexRT[Btn7D] == 1]
+		{
+			motor[flipper] = -100;
+		}
+		else
+		{
+			motor[flipper] = 0;
+		}
 	}
 }
