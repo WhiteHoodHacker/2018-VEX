@@ -1,8 +1,6 @@
 # TankBot (VEX 2018)
-## Overview
+
 TankBot is the VEX robot created by WildStang for use in the 2018 VEX Robotics Competition, "Turning Point". This repository contains the ROBOTC code for TankBot. The folder "outdated" contains files that are no longer being maintained for TankBot.
-
-
 
 ## Changelog
 ### 11/24/18
