@@ -74,10 +74,10 @@ task usercontrol()
 	while (true)
 	{
 		//Code for tank drive (controlled by left and right joysticks)
-		motor[leftFrontDrive] = vexRT[Ch3];
-		motor[leftBackDrive] = vexRT[Ch3];
-		motor[rightFrontDrive] = vexRT[Ch2];
-		motor[rightBackDrive] = vexRT[Ch2];
+		motor[leftFrontDrive] = vexRT[Ch2];
+		motor[leftBackDrive] = vexRT[Ch2];
+		motor[rightFrontDrive] = vexRT[Ch3];
+		motor[rightBackDrive] = vexRT[Ch3];
 
 		//Code for intake (controlled by 8D button)
 		if(vexRT[Btn8D] == 1)
@@ -116,11 +116,11 @@ task usercontrol()
 		{
 			motor[flipper] = 100;
 		}
-		else if(vexRT[Btn7D] == 1]
+		else if(vexRT[Btn7D] == 1)
 		{
 			motor[flipper] = -100;
 		}
-		else
+		if(vexRT[Btn7L] == 0 && vexRT[Btn7D] == 0)
 		{
 			motor[flipper] = 0;
 		}
