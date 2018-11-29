@@ -17,7 +17,7 @@
 #include "Vex_Competition_Includes.c"
 
 //ArcadeBot
-//Built for 2018 Vex competition, "Turning Point"
+//Built for 2018 VEX Robotics Competition, "Turning Point"
 //For WildStang use only
 //Developed by WhiteHoodHacker
 
