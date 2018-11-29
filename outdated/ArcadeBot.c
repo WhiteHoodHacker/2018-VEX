@@ -74,10 +74,10 @@ task usercontrol()
 	while (true)
 	{
 		//Code for arcade drive (controlled by left joystick)
-		motor[leftFrontDrive] = vexRT[Ch3] + vexRT[Ch4];
-		motor[leftBackDrive] = vexRT[Ch3] + vexRT[Ch4];
-		motor[rightFrontDrive] = vexRT[Ch3] - vexRT[Ch4];
-		motor[rightBackDrive] = vexRT[Ch3] - vexRT[Ch4];
+		motor[leftFrontDrive] = vexRT[Ch4] + vexRT[Ch3];
+		motor[leftBackDrive] = vexRT[Ch4] + vexRT[Ch3];
+		motor[rightFrontDrive] = vexRT[Ch4] - vexRT[Ch3];
+		motor[rightBackDrive] = vexRT[Ch4] - vexRT[Ch3];
 
 		//Code for intake (controlled by 8D button)
 		if(vexRT[Btn8D] == 1)
