@@ -18,7 +18,7 @@
 
 //ArcadeBot
 //Built for 2018 VEX Robotics Competition, "Turning Point"
-//For WildStang use only
+//For WildStang B (111B) use only
 //Developed by WhiteHoodHacker
 
 /////////////////////////////////////////////////////////////////////////////////////////
