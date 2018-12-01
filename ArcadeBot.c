@@ -54,10 +54,10 @@ task autonomous()
 {
 
 		//Red Alliance Autonomous
-			motor[leftFrontDrive] = -80;
-			motor[leftBackDrive] = -80;
-			motor[rightFrontDrive] = -80;
-			motor[rightBackDrive] = -80;
+			motor[leftFrontDrive] = -100;
+			motor[leftBackDrive] = -100;
+			motor[rightFrontDrive] = -100;
+			motor[rightBackDrive] = -100;
 			motor[puncher] = 100;
 			wait1Msec(2000);
 			motor[puncher] = 0;
@@ -67,10 +67,10 @@ task autonomous()
 			motor[rightBackDrive] = 0;
 
 		//Blue Alliance  Autonomous (collab with 2360)
-		//	motor[leftFrontDrive] = 80;
-		//	motor[leftBackDrive] = 80;
-		//	motor[rightFrontDrive] = 80;
-		//	motor[rightBackDrive] = 80;
+		//	motor[leftFrontDrive] = 100;
+		//	motor[leftBackDrive] = 100;
+		//	motor[rightFrontDrive] = 100;
+		//	motor[rightBackDrive] = 100;
 		//	wait1Msec(300);
 		//	motor[leftFrontDrive] = 0;
 		//	motor[leftBackDrive] = 0;
@@ -106,10 +106,10 @@ task usercontrol()
 	while (true)
 	{
 		//Code for arcade drive (controlled by left joystick)
-		motor[leftFrontDrive] = 0.8*(vexRT[Ch3] + vexRT[Ch4]);
-		motor[leftBackDrive] = 0.8*(vexRT[Ch3] + vexRT[Ch4]);
-		motor[rightFrontDrive] = 0.8*(vexRT[Ch3] - vexRT[Ch4]);
-		motor[rightBackDrive] = 0.8*(vexRT[Ch3] - vexRT[Ch4]);
+		motor[leftFrontDrive] = vexRT[Ch3] + vexRT[Ch4];
+		motor[leftBackDrive] = vexRT[Ch3] + vexRT[Ch4];
+		motor[rightFrontDrive] = vexRT[Ch3] - vexRT[Ch4];
+		motor[rightBackDrive] = vexRT[Ch3] - vexRT[Ch4];
 
 		//Code for intake (controlled by 8D button (forwards) and 7D button (reverse))
 		if(vexRT[Btn8D] == 1)
