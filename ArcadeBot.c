@@ -12,7 +12,7 @@
 //VEX Competition Control and Duration Settings (in seconds)
 #pragma competitionControl(Competition)
 #pragma autonomousDuration(15)
-#pragma userControlDuration(105)
+#pragma userControlDuration(145)
 
 #include "Vex_Competition_Includes.c"
 
