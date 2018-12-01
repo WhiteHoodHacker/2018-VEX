@@ -52,7 +52,19 @@ void pre_auton()
 task autonomous()
 {
 
-
+motor[leftFrontDrive] = 100;
+motor[leftBackDrive] = 100;
+motor[rightFrontDrive] = 100;
+motor[rightBackDrive] = 100;
+wait1Msec(1000);
+motor[puncher] = 100;
+wait1Msec(1000);
+motor[puncher] = 0;
+wait1Msec(1000);
+motor[leftFrontDrive] = 0;
+motor[leftBackDrive] = 0;
+motor[rightFrontDrive] = 0;
+motor[rightBackDrive] = 0;
 
 }
 
