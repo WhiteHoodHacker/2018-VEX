@@ -53,28 +53,28 @@ void pre_auton()
 task autonomous()
 {
 		//Blue Alliance Autonomous
-			motor[leftFrontDrive] = -100;
-			motor[leftBackDrive] = -100;
-			motor[rightFrontDrive] = -100;
-			motor[rightBackDrive] = -100;
-			wait1Msec(2000);
-			motor[leftFrontDrive] = 0;
-			motor[leftBackDrive] = 0;
-			motor[rightFrontDrive] = 0;
-			motor[rightBackDrive] = 0;
-
-		//Red Alliance Autonomous
 		//	motor[leftFrontDrive] = -100;
 		//	motor[leftBackDrive] = -100;
 		//	motor[rightFrontDrive] = -100;
 		//	motor[rightBackDrive] = -100;
-		//	motor[puncher] = 100;
 		//	wait1Msec(2000);
-		//	motor[puncher] = 0;
 		//	motor[leftFrontDrive] = 0;
 		//	motor[leftBackDrive] = 0;
 		//	motor[rightFrontDrive] = 0;
 		//	motor[rightBackDrive] = 0;
+
+		//Red Alliance Autonomous
+			motor[leftFrontDrive] = -100;
+			motor[leftBackDrive] = -100;
+			motor[rightFrontDrive] = -100;
+			motor[rightBackDrive] = -100;
+			motor[puncher] = 100;
+			wait1Msec(2000);
+			motor[puncher] = 0;
+			motor[leftFrontDrive] = 0;
+			motor[leftBackDrive] = 0;
+			motor[rightFrontDrive] = 0;
+			motor[rightBackDrive] = 0;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -111,9 +111,7 @@ task usercontrol()
 			motor[leftBackDrive] = -100;
 			motor[rightFrontDrive] = -100;
 			motor[rightBackDrive] = -100;
-			motor[puncher] = 100;
 			wait1Msec(2000);
-			motor[puncher] = 0;
 			motor[leftFrontDrive] = 0;
 			motor[leftBackDrive] = 0;
 			motor[rightFrontDrive] = 0;
