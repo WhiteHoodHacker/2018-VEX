@@ -3,6 +3,15 @@
 TankBot is the VEX robot created by WildStang for use in the 2018 VEX Robotics Competition, "Turning Point". This repository contains the ROBOTC code for TankBot. The folder "outdated" contains files that are no longer being maintained for TankBot.
 
 ## Changelog
+###12/01/18 (Competition Day!)
+*Bunch of updates to ArcadeBot!
+*Speed reduced by 20% due to motors stalling out.
+*Added "rubber" intake, which does the initial winding in of the ball.
+*Added two-way toggles for main intake mechanism.
+*Got 30/38 place in first eight qualifier rounds, made it into the 15th out of 16 Alliances.
+*We never made it past the first round, but it was a good run!
+*Highlights include our awesome puncher shooter and intake elevator. We also had a great flipper and an awesome autonomous for Red Alliance.
+
 ### 11/28/18
 * Fixed ArcadeBot issue where joysticks were reversed.
 * Moved TankBot to outdated, moved ArcadeBot back to master.
