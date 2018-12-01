@@ -88,7 +88,6 @@ task usercontrol()
 		//Code for intake (controlled by 8D button (forwards) and 7D button (reverse))
 		if(vexRT[Btn8D] == 1)
 		{
-			//motor[intake] = 100;
 			if(! intakeForwardButtonPressed)
 			{
 				intakeForwardToggleState = 1 - intakeForwardToggleState;
@@ -138,10 +137,6 @@ task usercontrol()
 				motor[intake] = 0;
 			}
 		}
-		//else
-		//{
-		//	motor[intake] = 0;
-		//}
 
 		//Code for puncher (controlled by 6D button)
 		if(vexRT[Btn6D] == 1)
