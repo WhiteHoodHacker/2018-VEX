@@ -54,13 +54,24 @@ task autonomous()
 {
 
 		//Red Alliance Autonomous
-		//	motor[leftFrontDrive] = -80;
-		//	motor[leftBackDrive] = -80;
-		//	motor[rightFrontDrive] = -80;
-		//	motor[rightBackDrive] = -80;
-		//	motor[puncher] = 100;
-		//	wait1Msec(2000);
-		//	motor[puncher] = 0;
+			motor[leftFrontDrive] = -80;
+			motor[leftBackDrive] = -80;
+			motor[rightFrontDrive] = -80;
+			motor[rightBackDrive] = -80;
+			motor[puncher] = 100;
+			wait1Msec(2000);
+			motor[puncher] = 0;
+			motor[leftFrontDrive] = 0;
+			motor[leftBackDrive] = 0;
+			motor[rightFrontDrive] = 0;
+			motor[rightBackDrive] = 0;
+
+		//Blue Alliance  Autonomous (collab with 2360)
+		//	motor[leftFrontDrive] = 80;
+		//	motor[leftBackDrive] = 80;
+		//	motor[rightFrontDrive] = 80;
+		//	motor[rightBackDrive] = 80;
+		//	wait1Msec(300);
 		//	motor[leftFrontDrive] = 0;
 		//	motor[leftBackDrive] = 0;
 		//	motor[rightFrontDrive] = 0;
